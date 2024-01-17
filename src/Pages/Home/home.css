@@ -1,0 +1,21 @@
+
+.homepage-cover{
+    background-image: url('../../Assets/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    margin-top: 10vh; 
+    width: 100%;
+    
+}
+.button{
+    position: absolute;
+    bottom: 20vh; 
+  left: 50%;
+  transform: translateX(-50%);
+}
