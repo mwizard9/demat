@@ -1,49 +1,50 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import './ourteam.css'
 
 export const Ourteam = () => {
     const cardData = [
         {
           id: 1,
-          src: 'image1.jpg',
+          src: './tikaram.jpg',
           Name: 'Tikaram Acharya',
           Position: 'Frontend Developer',
         },
         {
           id: 2,
-          src: 'image2.jpg',
+          src: './parashar.jpg',
           Name: 'Parashar Baral',
           Position: '.Net Fullstack Developer',
         },
         {
             id: 3,
-            src: 'image2.jpg',
+            src: './rajish.jpg',
             Name: 'Rajish Maharjan',
             Position: '.Net/React Fullstack Developer',
           },
           {
             id: 4,
-            src: 'image2.jpg',
+            src: 'gunner.jpg',
             Name: 'Ural Shrestha',
             Position: '.Net Developer/Network Administrator',
           },
           {
             id: 5,
-            src: 'image2.jpg',
+            src: 'anjal.jpg',
             Name: 'Anjal Thapa',
             Position: 'Business Administrator',
           },
           {
             id: 6,
-            src: 'image2.jpg',
+            src: 'sudan.jpg',
             Name: 'Sudan Shakya',
             Position: '.Net Developer/Designer',
           },
       ];
   return (
     <>
-    <h2>Ourteam</h2>
+    <h2 className="pagehead">Ourteam</h2>
     <div className="row mx-4">
     {cardData.map((card) => (
         <div key={card.id} className="col-lg-3 col-md-3 col-sm-4 my-3">

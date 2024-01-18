@@ -1,0 +1,22 @@
+.introImage{
+    height: 75vh;
+    width: 40vw;
+}
+.introImage img{
+    height: 75vh;
+    width: 40vw;
+}
+.intro{
+    height: 60vh;
+    background-color: rgba(27, 26, 26, 0.5);
+   
+    width: 60%;
+    position: absolute;
+    margin-left: 30vw;
+}
+.intro span{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 35px;
+}

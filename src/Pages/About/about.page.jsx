@@ -1,11 +1,17 @@
 import React from 'react'
-import { Ourteam } from '../../Components'
+import { OurIntro, Ourteam } from '../../Components'
 
 export const About = () => {
   return (
     <>
-    <div>About</div>
+    <div>
+      <div className='my-3'>
+      <OurIntro/>
+      </div>
+      <div className='my-3'>
     <Ourteam />
+    </div>
+    </div>
     </>
 
   )
