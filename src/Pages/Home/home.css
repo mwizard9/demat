@@ -9,9 +9,28 @@
     flex-direction: column;
 }
 .nav{
-    margin-top: 10vh; 
+    margin-top: 5vh; 
     width: 100%;
     
+}
+.welcome{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.welcome-text{
+    display: flex;
+    flex-direction: column;
+width: 50%;
+background-color: rgba(20, 0, 20, 0.5);
+}
+.welcome span{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+
 }
 .button{
     position: absolute;
