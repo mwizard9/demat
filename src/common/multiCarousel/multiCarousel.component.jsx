@@ -25,7 +25,7 @@ const responsive = {
 //   items: {name: string; imageName: string}[]
 // }
 
-export const MultiCarousel= ({items}) => {
+export const MultiCarousel= ({items,onProjectClick}) => {
   return (
     <>
       <Carousel
@@ -46,7 +46,7 @@ export const MultiCarousel= ({items}) => {
         itemClass="carousel-item-padding-40-px"
       >
         {items.map((item, index) => (
-          <div key={index} className="carImage">
+          <div key={index} onClick={onProjectClick} className="carImage">
             <img src={item.imageName} alt={item.name} />
             <p>{item.name}</p>
           </div>

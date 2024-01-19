@@ -7,3 +7,7 @@
     height: 250px;
     width: 350px;
 }
+.react-multi-carousel-item{
+    display: flex;
+    justify-content: center;
+}
