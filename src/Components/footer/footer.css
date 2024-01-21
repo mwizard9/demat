@@ -1,0 +1,16 @@
+.footerComponent{
+    height: 30vh;
+    background-color: #686464;
+}
+.copyrightContainer {
+    height: auto;
+    width: 100%;
+    background-color: #181717;
+    display: flex;
+    justify-content: center;
+    padding: 23px 20px;
+    height: 8vh;
+}
+.copyrightContainer p{
+    color: white;
+}

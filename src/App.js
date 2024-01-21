@@ -1,14 +1,20 @@
 import frontimage from './Assets/images/frontimage.jpg'
 import './App.css';
-import { Home } from './Pages';
+import { About, Contact, Home } from './Pages';
 import { Navbars } from './Components/navbar';
-import { About } from './Pages/About';
+import { Footer } from './Components';
+
+
 
 function App() {
   return (
     <div className="App">
+      <Navbars/>
+    
       <Home/>
-      <About/>
+      <About />
+      <Contact />
+      <Footer/>
     </div>
   );
 }

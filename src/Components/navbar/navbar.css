@@ -1,4 +1,14 @@
 .navs{
-    width: 100%;
+    margin:5vh 2vw 0 2vw;
+    width: 93%;
     border-radius: 10px;
+    position: absolute;
+    
+}
+.scrolled {
+    position: fixed;
+    margin: 0 2vw;
+    z-index: 999;
+    background-color: #fff;
+ 
 }

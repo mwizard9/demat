@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { CustomButton } from "../../common";
 import './home.css'
-import { Navbars } from "../../Components";
+import { ContactUs, Navbars } from "../../Components";
 
 
 export const Home = () => {
@@ -30,9 +30,7 @@ export const Home = () => {
   return (
     <>
     <div className="homepage-cover">
-      <div className="nav">
-      <Navbars/>
-      </div>
+      
       <div className="welcome">
         <div className="welcome-text">
         <span style={{color:color }}>
@@ -44,6 +42,7 @@ export const Home = () => {
       <CustomButton onButtonClick={onButtonClick}>Join Us</CustomButton>
       </div>
       </div>
+    
       </>
   );
 };

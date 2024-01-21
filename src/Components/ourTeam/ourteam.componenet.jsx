@@ -47,7 +47,7 @@ export const Ourteam = () => {
     <h2 className="pagehead">Ourteam</h2>
     <div className="row mx-4">
     {cardData.map((card) => (
-        <div key={card.id} className="col-lg-3 col-md-3 col-sm-4 my-3">
+        <div key={card.id} className="col-lg-3 col-md-3 col-sm-4 col-xs-4 my-3">
         <Card >
       <Card.Img variant="top" src={card.src} />
       <Card.Body>

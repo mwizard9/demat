@@ -20,3 +20,29 @@
     font-weight: 500;
     line-height: 35px;
 }
+.ourintro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width:960px) {
+    .ourintro{
+        display: flex;
+        flex-direction: column;
+    }
+    .intro{
+        position: relative;
+        width: 80%;
+        margin-top: -50vh;
+        margin-left: 10px;
+        height: fit-content;
+
+    }
+    .intro span{
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    
+}

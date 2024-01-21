@@ -35,8 +35,8 @@ export const MultiCarousel= ({items,onProjectClick}) => {
         responsive={responsive}
         ssr={true} // means to render carousel on server-side.
         infinite={true}
-        autoPlay={false}
-        autoPlaySpeed={2000}
+        autoPlay={true}
+        autoPlaySpeed={5000}
         keyBoardControl={true}
         customTransition="all .5"
         transitionDuration={500}

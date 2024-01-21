@@ -6,7 +6,7 @@ export const OurIntro = () => {
   return (
     <>
       <h2 className="pagehead">OurIntro</h2>
-      <div className=" d-flex justify-content-between align-items-center mx-5">
+      <div className="ourintro mx-5">
         <div className="introImage">
           <img src={backImage} alt="backimage" />
         </div>
