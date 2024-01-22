@@ -1,5 +1,5 @@
 .footerComponent{
-    height: 30vh;
+    height: 40vh;
     background-color: #686464;
 }
 .copyrightContainer {
@@ -13,4 +13,8 @@
 }
 .copyrightContainer p{
     color: white;
+}
+.ContactInfo img{
+    height: 30px;
+    width: 30px;
 }
